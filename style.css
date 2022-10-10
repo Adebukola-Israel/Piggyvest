@@ -1,0 +1,152 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+body{
+ background: #f7f7f7;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 20px;
+}
+.title img{
+ width: 150px;
+ margin-left: 50px;
+}
+nav {
+  margin-right: 70px;
+}
+nav ul li{
+ display: inline-block;
+ justify-content: space-between;
+ align-items: center;
+ color: black;
+  width: 100px;
+  text-align: center;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+a:hover {
+  border-bottom: 2px solid rgb(4, 47, 120);
+  color: #042f78;
+  font-weight: bolder;
+}
+.active{
+ border-bottom: 2px solid #042f78;
+  color: #042f78;
+  font-weight: bolder;
+}
+button{
+ background: #042f78;
+ color: white;
+ border: none;
+ width: 150px;
+ font-size: 16px;
+ height: 50px;
+}
+button:hover{
+ cursor: pointer;
+ background: #f7f7f7;
+ color: #042f78;
+ font-weight: bolder;
+  border: 3px solid #073e9d;
+}
+
+.content{
+ margin-top: 100px;
+ margin-left: 50px;
+}
+.content h1{
+ font-size: 55px;
+ width: 610px;
+}
+.content p{
+ margin-top: 20px;
+ width: 550px;
+ font-size: 21px;
+ line-height: 29px;
+}
+ .content button{
+ margin-top: 30px;
+ width: 190px;
+ height: 50px;
+ margin-right: 70px;
+ font-size: 19px;
+}
+
+.download{
+ border: 3px solid #073e9d;
+ background: #f7f7f7;
+ color: #073e9d;
+ padding-left:25px;
+}
+.download:hover{
+  background: #042f78;
+   color: white;
+   border: none;
+   font-weight: normal;
+}
+ .content img{
+  margin-left:-255px ;
+  margin-bottom: -10px;
+  width: 35px;
+ }
+[alt="safebox"]{
+ margin-left: 700px;
+ margin-top: -330px;
+ width: 480px;
+}
+.prof{
+    margin-top: -40px;
+        margin-left: 50px; 
+}
+.prof div{
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  position: relative;
+  border-radius: 50%;
+}
+.prof p{
+margin-left: 230px;
+margin-top: -30px;
+}
+.prof img{
+  width: 20px;
+  margin-bottom: 10px;
+}
+.prof1{
+background: url(/Piggyvest/image/prof1.jpg); 
+background-size: 43px;
+background-position: 2px -1px;
+position: absolute;
+left: 0;
+}
+.prof2{
+background: url(/Piggyvest/image/prof2.jpg);
+background-size:45px ;
+background-position: 3px 0px;
+position: absolute;
+left: -10px;
+}
+.prof3{
+background: url(/Piggyvest/image/prof3.jpg);
+background-size: 120px;
+background-position:-35px -15px ;
+position: absolute;
+left: -20px;
+}
+.prof4{
+background: url(/Piggyvest/image/prof4.jpg);
+background-size: 60px;
+background-position: -6px -7px;
+position: absolute;
+left: -30px;
+}
