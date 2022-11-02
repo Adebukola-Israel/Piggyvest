@@ -123,28 +123,28 @@ margin-top: -30px;
   margin-bottom: 10px;
 }
 .prof1{
-background: url(/Piggyvest/image/prof1.jpg); 
+background: url(/image/prof1.jpg); 
 background-size: 43px;
 background-position: 2px -1px;
 position: absolute;
 left: 0;
 }
 .prof2{
-background: url(/Piggyvest/image/prof2.jpg);
+background: url(/image/prof2.jpg);
 background-size:45px ;
 background-position: 3px 0px;
 position: absolute;
 left: -10px;
 }
 .prof3{
-background: url(/Piggyvest/image/prof3.jpg);
+background: url(/image/prof3.jpg);
 background-size: 120px;
 background-position:-35px -15px ;
 position: absolute;
 left: -20px;
 }
 .prof4{
-background: url(/Piggyvest/image/prof4.jpg);
+background: url(/image/prof4.jpg);
 background-size: 60px;
 background-position: -6px -7px;
 position: absolute;
